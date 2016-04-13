@@ -1,7 +1,7 @@
 {
   "name": "madness",
   "version": "1.0.0",
-  "description": "madforjekyll",
+  "description": "mae-fatman",
   "main": "Gruntfile.js",
   "dependencies": {
     "magnific-popup": "^1.0.0"
