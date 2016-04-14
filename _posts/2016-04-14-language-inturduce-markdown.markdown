@@ -55,17 +55,106 @@ categories: Markdown
 
 ### 三，Markdown语法
 
-#### Markdown 的目标是实现「易读易写」。
+##### Markdown 的目标是实现「易读易写」。
 
 不过最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文档应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，然而最大灵感来源其实是纯文本的电子邮件格式。
 
 因此 Markdown 的语法全由标点符号所组成，并经过严谨慎选，是为了让它们看起来就像所要表达的意思。像是在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。假如你用过电子邮件，区块引言看起来就真的像是引用一段文字。
 
-#### Markdown 的语法有个主要的目的：用来作为一种网络内容的写作用语言。
+##### Markdown 的语法有个主要的目的：用来作为一种网络内容的写作用语言。
 
 Markdown 不是要来取代 HTML，甚至也没有要和它相似，它的语法种类不多，只和 HTML 的一部分有关系，重点不是要创造一种更容易写作 HTML 文档的语法，我认为 HTML 已经很容易写了，Markdown 的重点在于，它能让文档更容易阅读、编写。HTML 是一种发布的格式，Markdown 是一种编写的格式，因此，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。
 
 不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。
+
+#### 标题
+
+标题是每篇文章都需要也是最常用的格式，在 Markdown 中，如果一段文字被定义为标题，有两种方式：
+
++ 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
++ 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）
+
+建议用六级标题，建议在井号后加一个空格，这是最标准的 Markdown 语法。
+
+	# 一级标题
+	## 二级标题
+	### 三级标题
+
+#### 列表
+
+熟悉 HTML 的同学肯定知道有序列表与无序列表的区别，在 Markdown 下，列表的显示只需要在文字前加上 +  - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。
+
+无序
+
+	* A
+	* B
+	* C
+
+有序
+
+	1. A
+	2. B
+	3. C
+
+#### 引用
+
+只需要在文本前加入 > 这种尖括号（大于号）即可
+
+	> 当前阶
+	>> 下一阶
+	>>> 下下一阶
+
+#### 图片与链接（Links）
+
+插入链接与插入图片的语法很像，区别在一个 !号
+
+	内联图片方式：![](){ImgCap}{/ImgCap "title"}
+	引用图片方式：![alt text][id] 
+		[id]: /path/to/img.jpg "Title"
+
+	内联链接方式：[example link](http://example.com/).
+	引用链接方式：[Google][1] than from [Yahoo][2] or [MSN][3].  
+		[1]: http://google.com/        "Google"
+		[2]: http://search.yahoo.com/  "Yahoo Search" 
+		[3]: http://search.msn.com/    "MSN Search"	
+	
+#### 粗体与斜体
+
+斜体:将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来
+粗体:将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来
+
+	*abcd*
+	**abcd**
+
+#### 表格
+
+2种
+
+	| Tables        | Are           | Cool  |
+	| ------------- |:-------------:| -----:|
+	| col 3 is      | right-aligned | $1600 |
+	| col 2 is      | centered      |   $12 |
+	| zebra stripes | are neat      |    $1 |
+
+	Book | Car
+	233  | 2334
+
+#### 代码框（blockquote）
+
+Markdown下实现也非常简单。我用Tab开头缩进！
+实现方式有两种：
+第一种：简单文字出现一个代码框。（不是单引号而是左上角的ESC下面~中的）
+
+	` abcd
+
+	`
+	abcd efgh
+	`
+
+第二种：大片文字需要实现代码框。使用Tab和四个空格。
+
+#### 分割线
+
 
 只有区块元素──比如 **div** __table__ <pre> <p> 等标签，必需在前后加上空白，以利与内容区隔。而且这些（元素）的开始与结尾标签，不可以用 tab 或是空白来缩排。Markdown 的产生器有智能判断，可以避免在区块标签前后加上没有必要的 <p> 标签。
 
@@ -83,49 +172,7 @@ This is another regular paragraph.
 
 http://www.jianshu.com/p/1e402922ee32/
 http://www.ituring.com.cn/article/504
-1. 标题设置（让字体变大，和word的标题意思一样）
-在Markdown当中设置标题，有两种方式：
-第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
-第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）
 
-2. 块注释（blockquote）
-通过在文字开头添加“>”表示块注释。（当>和文字之间添加五个blank时，块注释的文字会有变化。）
-
-3. 斜体
-将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来
-
-4. 粗体
-将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来
-
-5. 无序列表
-在文字开头添加(*, +, and -)实现无序列表。但是要注意在(*, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）
-
-6. 有序列表
-使用数字后面跟上句号。（还要有空格）
-
-7. 链接（Links）
-Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
-内联方式：This is an [example link](http://example.com/).
-引用方式：
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-
-[1]: http://google.com/        "Google" 
-[2]: http://search.yahoo.com/  "Yahoo Search" 
-[3]: http://search.msn.com/    "MSN Search"
- 
-
-8. 图片（Images）
-图片的处理方式和链接的处理方式，非常的类似。
-内联方式：![alt text](/path/to/img.jpg "Title")
-引用方式：
-![alt text][id] 
-
-[id]: /path/to/img.jpg "Title"
-
-9. 代码（HTML中所谓的Code）
-实现方式有两种：
-第一种：简单文字出现一个代码框。使用`<blockquote>`。（`不是单引号而是左上角的ESC下面~中的`）
-第二种：大片文字需要实现代码框。使用Tab和四个空格。
 
 10. 脚注（footnote）
 实现方式如下：
