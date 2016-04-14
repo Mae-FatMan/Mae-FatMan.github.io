@@ -1,0 +1,16 @@
+name: Mae-FatMan Themes
+url: http://mae-fatman.github.io
+description: Insert tagline here
+
+gems: [jekyll-paginate]
+
+permalink: /themes/:title/
+
+highlighter: pygments
+paginate: 20
+
+kramdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
