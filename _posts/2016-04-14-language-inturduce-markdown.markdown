@@ -1,17 +1,12 @@
 ---
 layout: post
 title:  "Markdown——入门指南"
-date:   2016-04-14 22:14:54
+date:   2016-04-12 16:54:34
 categories: Markdown
 ---
 
-
-引用1: 文／Te_Lee（简书作者）[原文链接](http://www.jianshu.com/p/1e402922ee32/)--著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。
-
-引用2：文／xwch（简书作者）[原文链接](http://www.jianshu.com/p/9e5cd946696d)--著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。
-
-
-
+引用1: 文／Te_Lee（简书作者）[原文链接](http://www.jianshu.com/p/1e402922ee32/)“简书作者”。
+引用2：文／xwch（简书作者）[原文链接](http://www.jianshu.com/p/9e5cd946696d)“简书作者”。
 
 ### 导语：
 > Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。
@@ -27,7 +22,6 @@ categories: Markdown
 授权秘钥：
 
 	GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==
-
 
 #### 二，认识 Markdown
 Markdown 的目标是实现「易读易写」。
