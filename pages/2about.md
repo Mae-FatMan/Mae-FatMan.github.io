@@ -70,7 +70,8 @@ icon: glyphicon-heart
 记录开发学习过程中遇到的问题、心得和感受等等。
 
 Date | Detail
-2016.04.12 | 开启GitHub之旅，创建GitHub账号/安装本地客户端/搭建静态博客/熟悉Jekyll等等，非常感谢 **[HyG](http://gaohaoyang.github.io/cv/)** 的模板。
+2016.04.12 | 仿照模板开始自己搭建，并熟悉一些网页开发知识和技巧。
+2016.04.11 | 开启GitHub之旅，创建GitHub账号/安装本地客户端/搭建静态博客/熟悉Jekyll等等，非常感谢 **[HyG](http://gaohaoyang.github.io/cv/)** 的模板。
 ---
 
 
