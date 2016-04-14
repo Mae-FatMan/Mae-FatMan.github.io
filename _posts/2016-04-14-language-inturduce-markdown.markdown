@@ -33,12 +33,12 @@ categories: Markdown
 >> [创始人 John Gruber 的 Markdown 语法说明](http://daringfireball.net/projects/markdown/syntax)
 >> [Markdown 中文版语法说明](http://wowubuntu.com/markdown/)
 
-####使用 Markdown 的优点
-> *专注你的文字内容而不是排版样式，安心写作。
-> *轻松的导出 HTML、PDF 和本身的 .md 文件。
-> *纯文本内容，兼容所有的文本编辑器与字处理软件。
-> *随时修改你的文章版本，不必像字处理软件生成若干文件版本导致混乱。
-> *可读、直观、学习成本低。
+#### 使用 Markdown 的优点
+> * 专注你的文字内容而不是排版样式，安心写作。
+> * 轻松的导出 HTML、PDF 和本身的 .md 文件。
+> * 纯文本内容，兼容所有的文本编辑器与字处理软件。
+> * 随时修改你的文章版本，不必像字处理软件生成若干文件版本导致混乱。
+> * 可读、直观、学习成本低。
 
 #### 使用 Markdown 的误区
 > We believe that writing is about content, about what you want to say – not about fancy formatting. 
