@@ -1,21 +1,68 @@
-Jekyll Themes
-=============
+# Abstract
 
-A directory of the best-looking themes for Jekyll blogs
-
-
-Submitting a Theme
-------------------
-
-Have a theme you want to share?
-
-* Fork the site on GitHub
-* Create a new post in the `_posts` directory and fill out the relevant YAML fields
-* Make a 250x200 thumbnail and drop it in the thumbnails directory. List its filename in the post's markdown file.
-* Test it out, then push your changes up and open a pull request.
+**模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
 
-License
--------
+# About Theme
 
-The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
+This is a blog theme based on jekyll. You can use on your own blog. Before you use it, please click a star on [this respository](https://github.com/Gaohaoyang/gaohaoyang.github.io/). You will encourage me to do more great things!
+
+
+## Sample
+
+### static view
+
+![blog sample](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blog sample.png)
+
+### active view
+
+![blog-blogShow1](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow1.gif)
+
+![blog-blogShow2](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow2.gif)
+
+## Attention
+
+When you use this theme. Please make sure to add the author's info, like this: Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang) or Designed by [Gaohaoyang](https://github.com/Gaohaoyang) 
+
+While you should delete statistics code in _includes/head.html.
+
+like this:
+
+```javascript
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?**************************";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+```
+
+And you should change the duoshuo comment code in _layouts/default.html.
+
+like this:
+
+```javascript
+var duoshuoQuery = {short_name:"******"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})(); 
+``` 
+
+---
+
+Thank you.
+Here is my blog: [HyG](http://gaohaoyang.github.io)
+
+---
+
+LICENSE
+
+[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
+
+
+

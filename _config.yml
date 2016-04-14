@@ -1,16 +1,27 @@
-name: Mae-FatMan Themes
-url: http://mae-fatman.github.io
-description: Insert tagline here
+# Site settings
+title: Mae-FatMa
+email: lzjdsuyonghong@aliyiun.com
+description: 记录开发学习过程中遇到的问题、心得和感受等等
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Mae-FatMan
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
 gems: [jekyll-paginate]
 
-permalink: /themes/:title/
+paginate: 10
+paginate_path: "page:num"
 
-highlighter: pygments
-paginate: 20
-
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
