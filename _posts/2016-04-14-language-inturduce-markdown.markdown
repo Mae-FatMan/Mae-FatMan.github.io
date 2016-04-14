@@ -4,8 +4,13 @@ title:  "Markdown——入门指南"
 date:   2016-04-12 16:54:34
 categories: Markdown
 ---
-* 引用1: 文／Te_Lee（简书作者）[原文链接](http://www.jianshu.com/p/1e402922ee32/)
+
+* content
+{:toc}
+
+* 引用1：文／Te_Lee（简书作者）[原文链接](http://www.jianshu.com/p/1e402922ee32/)
 * 引用2：文／xwch（简书作者）[原文链接](http://www.jianshu.com/p/9e5cd946696d)
+* 引用3：http://www.ituring.com.cn/article/504
  
 ### 导语：
 > Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。
@@ -155,6 +160,17 @@ Markdown下实现也非常简单。我用Tab开头缩进！
 
 #### 分割线
 
+分割线的语法只需要 3个*号/3个-号
+
+	***
+	---
+	-
+	----------------
+
+---
+
+### 三，Markdown种使用html语句
+
 
 只有区块元素──比如 **div** __table__ <pre> <p> 等标签，必需在前后加上空白，以利与内容区隔。而且这些（元素）的开始与结尾标签，不可以用 tab 或是空白来缩排。Markdown 的产生器有智能判断，可以避免在区块标签前后加上没有必要的 <p> 标签。
 
@@ -174,15 +190,7 @@ http://www.jianshu.com/p/1e402922ee32/
 http://www.ituring.com.cn/article/504
 
 
-10. 脚注（footnote）
-实现方式如下：
-hello[^hello]
 
-
-[^hello]: hi
-
-11. 下划线
-在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）
 
 
 ---
