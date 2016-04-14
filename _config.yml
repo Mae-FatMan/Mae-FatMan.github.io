@@ -9,7 +9,7 @@ permalink: /themes/:title/
 highlighter: pygments
 paginate: 20
 
-kramdown: rdiscount
+markdown: rdiscount
 rdiscount:
     extensions: ['smart']
 
