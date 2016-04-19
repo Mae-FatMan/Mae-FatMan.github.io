@@ -14,8 +14,6 @@ Date | Detail
 
 ---
 
-
-
 ### 联系方式
 
 * email：[lzjdsuyonghong@aliyun.com](mailto:{{ site.email }})
@@ -23,10 +21,10 @@ Date | Detail
 
 
 ---
+
 ### Android Software Engineer
 
 微笑面对生活 ^-^
-
 
 	#include "stdio.h" //谭老说：include<> 和""都是合法的。<>这位标准方式，在头文件目录下寻找。
 	#include "stdlib.h" //""现在当前目录下找，若无，则在头文件目录下找。一般：库函数→<>自编头文件→""
