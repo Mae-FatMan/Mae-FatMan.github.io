@@ -150,11 +150,11 @@ Markdown下实现也非常简单。我用Tab开头缩进！
 实现方式有两种：
 第一种：简单文字出现一个代码框。（不是单引号而是左上角的ESC下面~中的）
 
-	` abcd
+	` abcd 单行
 
-	`
-	abcd efgh
-	`
+	```
+	abcd efgh 多行
+	```
 
 第二种：大片文字需要实现代码框。使用Tab和四个空格。
 
@@ -175,7 +175,7 @@ Markdown下实现也非常简单。我用Tab开头缩进！
 
 只有区块元素──比如 **div** __table__ <pre> <p> 等标签，必需在前后加上空白，以利与内容区隔。而且这些（元素）的开始与结尾标签，不可以用 tab 或是空白来缩排。Markdown 的产生器有智能判断，可以避免在区块标签前后加上没有必要的 <p> 标签。
 
-
+```
 (This is a regular paragraph.)
 
 <table>
@@ -185,10 +185,23 @@ Markdown下实现也非常简单。我用Tab开头缩进！
 </table>
 
 This is another regular paragraph.
-、
+```
 
-http://www.jianshu.com/p/1e402922ee32/
-http://www.ituring.com.cn/article/504
+
+---
+
+### 参考
+
+> 重要：
+>> http://www.yaosansi.com/post/markdown-on-github/
+>> http://www.ituring.com.cn/article/504
+
++ Markdown Basics https://help.github.com/articles/markdown-basics
++ Mastering Markdown https://guides.github.com/features/mastering-markdown/
++ GitHub Flavored Markdown https://help.github.com/articles/github-flavored-markdown
+
++ http://www.jianshu.com/p/1e402922ee2/
++ http://www.ituring.com.cn/article/504
 
 
 
