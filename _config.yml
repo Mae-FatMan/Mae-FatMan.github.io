@@ -31,4 +31,4 @@ paginate_path: "page:num"
 highlighter: pygments
 #highlighter: rouge
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-midnight
